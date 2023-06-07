@@ -1,0 +1,374 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: url("black.png");
+}
+
+.main {
+    width: 100% ;
+    box-sizing: border-box;
+    font-family: 'Times New Roman';
+}
+a{
+    text-decoration: none;
+}
+.topnav{
+    width: 100%;
+    height: 115px;
+    background: url(web.jpg);
+    background-size: cover ;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    padding: 20px 55px;
+}
+.logo{
+    max-height: 80px;
+ 
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 58px;
+}
+nav ul li a{
+    color: #000000;
+    position: sticky;
+    padding: 5px 0;
+}
+nav ul li a:hover{
+    color: #ff0000 ;
+}
+nav ul li a:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #ff0000;
+    transition: .2s;
+    bottom: 0;
+}
+nav ul li a:hover:after{
+    width: 100%;
+}
+.content {
+    position: absolute;
+    top: 35%;
+    left: 8%;
+}
+.content h1{
+    color: #ffffff;
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 90px;
+    text-transform: inherit;
+    width: 100%;
+}
+.content h1 span{
+    color: #15ff00;
+}
+.content p{
+    width: 90%;
+    color: #dbd4d4;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.img1 {
+    width: 20%;
+    margin-left: 930px;
+    position: absolute;
+    top: 35%;
+    border-radius: 50%;
+    transform: scale(1.5, 1.5);
+}
+
+.img1:hover {
+    box-shadow: 0 0 3px 3px rgba(0, 140, 186, 0.5);
+  }
+
+
+.img2 {
+    position: relative;
+    width: 30%;
+    left: 2%;
+    
+}
+
+.medal {
+    position: relative;
+    width: 80%;
+    left: 8%;
+}
+  
+
+  
+.overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: #000000;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+  }
+  
+.achievementgallery:hover .overlay {
+    bottom: 0;
+    height: 100%;
+  }
+  
+
+
+
+.img3 {
+    position: absolute;
+    width: 30%;
+    left: 35%;
+    top: 17%;
+    
+}
+.medal1 {
+    position: relative;
+    width: 80%;
+    left: 8%;
+}
+.overlay1 {
+    position: absolute;
+    bottom: 98%;
+    left: 0;
+    right: 0;
+    background-color: #000000;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+  
+.achievementgallery:hover .overlay1 {
+    bottom: 0;
+    height: 94%;
+}
+  
+
+
+.img4 {
+    position: absolute;
+    width: 30%;
+    left: 68%;
+    top: 25%;
+    
+}
+.medal2 {
+    position: relative;
+    width: 80%;
+    left: 8%;
+    
+}
+.overlay2 {
+    position: absolute;
+    bottom: 98%;
+    left: 0;
+    right: 0;
+    background-color: #000000;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+  
+.achievementgallery:hover .overlay2 {
+    bottom: 0;
+    height: 94%;
+}
+  
+.text {
+    white-space: nowrap; 
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+
+.polaroid {
+    width: 20%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgb(255, 255, 255), 0 6px 20px 0 rgba(247, 108, 108, 0.19);
+    margin-bottom: 25px;
+    margin-left: 50px;
+    position: absolute;
+    top: 21%;
+}
+  
+.text2 {
+    text-align: center;
+    padding: 10px 20px;
+  }
+
+.polaroid1 {
+    width: 20%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgb(255, 255, 255), 0 6px 20px 0 rgba(247, 108, 108, 0.19);
+    margin-top: 90px;
+    margin-left: 520px;
+    position: absolute;
+    top: 21%;
+}
+.text3 {
+    text-align: center;
+    padding: 10px 20px;
+}
+.polaroid2 {
+    width: 20%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgb(255, 255, 255), 0 6px 20px 0 rgba(247, 108, 108, 0.19);
+    margin-bottom: 30px;
+    margin-left: 1015px;
+    position: absolute;
+    top: 21%;
+}
+.text4 {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.TIS{
+    width: 110px;
+    height: 90px;
+    float: left;
+    margin-bottom: 6px;
+    margin-right: 15px;
+    right: -1%;
+    position: relative;
+}
+
+.ELEM{
+    bottom: 12px;
+    text-align: center;
+
+}
+.HS{
+    bottom: 12px;
+    margin-top: 5%;
+    position: relative;
+    text-align: center;
+}
+
+.COL{
+    bottom: 12px;
+    margin-top: 5%;
+    position: relative;
+    text-align: center;
+}
+
+.BNHS{
+    width: 110px;
+    height: 90px;
+    float: left;
+    margin-bottom: 6px;
+    margin-right: 15px;
+    right: -1%;
+    position: relative;
+}
+
+.PUP{
+    width: 110px;
+    height: 90px;
+    float: left;
+    margin-bottom: 6px;
+    margin-right: 15px;
+    right: -1%;
+    position: relative;
+}
+
+.schnme{
+    font-size: 20px;
+    color: white;
+    margin: -25px 15px 0px 11px;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.TIS:hover {
+    box-shadow: 0 0 3px 3px rgba(247, 14, 14, 0.5);
+  }
+
+.BNHS:hover {
+    box-shadow: 0 0 3px 3px rgba(247, 14, 14, 0.5);
+}
+
+.PUP:hover {
+    box-shadow: 0 0 3px 3px rgba(247, 14, 14, 0.5);
+}
+.txt{
+    font-size: 17px;
+    text-align: justify;
+    color: white;
+    margin: 0px 30px 0px 150px;
+}
+
+
+.pic {
+    left: 39.5%;
+    top: 27%;
+    position: fixed;
+    width: 20%;
+    background-color: rgb(255, 255, 255);
+    transform: scale(1.1, .85);
+
+}
+  
+.border {
+    box-shadow: 0 3px 8px 0 rgba(255, 254, 254, 0.2);
+    margin: 8px;
+}
+
+
+}
+.info {
+    padding: 0 13px;
+    font-size: 10px;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+  
+.title {
+    color: rgb(107, 106, 106);
+    font-size: 11px;
+}
+  
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+  
+.button:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+  }
+  
+  .abouttab {
+    padding: 5px;
+    text-align: center;
+    background-color: #06132e;
+    color: white;
+    font-size: 11.5px;
